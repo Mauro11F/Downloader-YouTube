@@ -25,7 +25,7 @@ def mostrarBanner():
 
 def elegirFormato():
     print(Fore.GREEN + "[1] Descargar Video")
-    print(Fore.GREEN + "[2] Descargar Solo Audio (MP3)")
+    print(Fore.GREEN + "[2] Descargar Solo Audio (webm)")
     opcion = input(Fore.YELLOW + "Selecciona una opción (1 o 2): ")
     return opcion.strip()
 
